@@ -46,10 +46,10 @@ RETURN
 INIT PROCEDURE InitAplication()
 
    REQUEST HB_LANG_ES            // Para establecer idioma de Mensajes, fechas, etc..
-   REQUEST HB_CODEPAGE_ESWIN     // Para establecer código de p�gina a Espa�ol (Ordenaci�n, etc..)
+   REQUEST HB_CODEPAGE_ESWIN     // Para establecer código de página a español (Ordenación, etc..)
 
    hb_langselect( "ES" )         // Para mensajes, fechas, etc..
-   hb_setcodepage( "ESWIN" )     // Para ordenaci�n (arrays, cadenas, etc..) *Requiere CodePage.lib
+   hb_setcodepage( "ESWIN" )     // Para ordenación (arrays, cadenas, etc..) *Requiere CodePage.lib
 
    loadLibrary( "Riched20.dll" ) // Cargamos la libreria para richedit
 
