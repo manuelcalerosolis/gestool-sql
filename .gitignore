@@ -14,6 +14,7 @@
 [Ii]ss/[Ee]xe/
 [Ii]nclude/
 [Pr]rg/[Ss]amples/
+[Bb]ic/
 [Bb]in/
 [Bb]in/[Ii]magen/
 [Bb]in/[Bb]mp/
@@ -22,6 +23,7 @@
 [Bb]in/[Dd]ocuments/[Ee]mp00VG/
 [Bb]in/[Dd]ocuments/[Ee]mp00VG/facturas_clientes/
 [Bb]in/[Cc]onfig/
+[Bb]in/[Cc]onfig/[Ss]ql
 
 *.tmp
 *.bak
@@ -91,4 +93,3 @@ Thumbs.db
 
 # Folder config file
 Desktop.ini
-bin/script/AlbaranesClientes/REDUR.prg

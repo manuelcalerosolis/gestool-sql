@@ -1,0 +1,11 @@
+{
+    "files.encoding": "windows1252",
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+    "editor.minimap.enabled": false,
+    "workbench.colorTheme": "Visual Studio Dark",
+    "search.location": "panel",
+    "editor.tabSize": 3,
+    "harbour.decorator": true,
+    "harbour.compilerExecutable": "c:\\harbour_bcc7\\bin\\harbour.exe",
+    "harbour.extraIncludePaths": ["c:\\fwh1811\\include\\"]
+}
