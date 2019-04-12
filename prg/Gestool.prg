@@ -46,10 +46,10 @@ RETURN
 INIT PROCEDURE InitAplication()
 
    REQUEST HB_LANG_ES            // Para establecer idioma de Mensajes, fechas, etc..
-   REQUEST HB_CODEPAGE_ESWIN     // Para establecer código de página a español (Ordenación, etc..)
+   REQUEST HB_CODEPAGE_ESWIN     // Para establecer c�digo de p�gina a Espa�ol (Ordenaci�n, etc..)
 
    hb_langselect( "ES" )         // Para mensajes, fechas, etc..
-   hb_setcodepage( "ESWIN" )     // Para ordenación (arrays, cadenas, etc..) *Requiere CodePage.lib
+   hb_setcodepage( "ESWIN" )     // Para ordenaci�n (arrays, cadenas, etc..) *Requiere CodePage.lib
 
    loadLibrary( "Riched20.dll" ) // Cargamos la libreria para richedit
 
@@ -113,9 +113,7 @@ STATIC FUNCTION mainAdminSQL()
    SQLGestoolMigrations():messageRun()
 
    if AccessController():New():isLoginSuperAdmin()
-
       CreateAdminSQLWindow()
-
    end if
 
    getSQLDatabase():Disconnect()
@@ -169,10 +167,10 @@ RETURN ( nil )
 
 FUNCTION appTest()
 
-   with object ( OdooConvertController():New() )
-      :Run()
-      :End()
-   end with
+   // with object ( OdooConvertController():New() )
+   //    :Run()
+   //    :End()
+   // end with
 
 RETURN ( nil )
 
@@ -225,3 +223,5 @@ FUNCTION destroyIconApp()
    end if
 
 RETURN ( nil )
+
+//---------------------------------------------------------------------------//

@@ -1,0 +1,205 @@
+MVC - ToDo
+
+- Quitar la tabla user.dbf de todos lados
+
+- Estudiar la selección de cajas y almacenes
+
+- Almacen por defecto en usuario
+
+- Delegacion por defecto en usuario
+
+- Guardar configuracón de columnas en Selector
+
+- No guarda configuracion de columnas en cajon portamonedas.
+
+- No guarda configuracion de columnas en movilientos de almacen lineas.
+
+- Eliminar una empresa, eliminar de SQL.
+
+- Mas configuraciones.
+
+- No guarda configuracion de columnas en factura proveedor.
+
+- No muestra el importe de IVA en factura proveedores. 
+
+- nLevelUsr debe funcionar con SQL (done)
+
+- lUsrMaster() revisar esta funcion (done)
+
+- Meter codigo en la ficha de usuario (done)
+
+- Quitar tipo de ventas (done)
+
+- Meter codigo en la ficha de usuario (done)
+
+- No deja guardar precios cero en importe de almacen, con propiedades (done)
+
+- El posicionamiento en el browse al añadir, no va bien en lineas de movimientos de almacen. (done)
+
+- Unidades y precios en tickets de hermandad matriz (done)
+
+- (HDO) Busqueda de fechas.
+
+- (HDO) Copias de seguridad SQL.
+
+- (HDO) FetchDirect por nombres.
+
+- (HDO) Sentencias precompiladas con hashtable.
+
+- (HDO) HashList no funciona bien.
+
+- Posicinarse en el ultimo registro usado. (done)
+
+- Comando para poner todos los registros como enviados.(done)
+
+- Error al eliminar los movimientos de almacen.(done)
+
+- Validar q el numero no exista ya en el programa. (done)
+
+- Asignación de los numeros en los seeders. (done)
+
+- Refresco feo al emliminar el primer registro. (done)
+
+- Navegacion entre movimientos de almacen.(done)
+
+- No carga los valores de las lineas sobre el grid de las propiedades. (done)
+
+- Numero de movimiento de almacen no avanza. (done)
+
+- Configuración de documentos por defecto. (done)
+
+- Configuracion de columnas no se guarda. (done)
+
+- Reposiconamiento si borro el ultimo registro. (done)
+
+- Duplicar movimientos de almacen.(done)
+
+- Terminar etiquetas.(done)
+
+- Recargar documentos de etiquetas.(done)
+
+- Refrescar errror en movimientos de almacen. (done)
+
+- Busquedas en etiquetas. ( done )
+
+- Ordenaciones de columnas de etiquetas. (done)
+
+- Botnon para modificar unidades de etiquetas. (done)
+
+- Botones de salida y grabacion en dialogos de movimientos de almacen ( done )
+
+- Creacion de tablas de contadores. (done)
+
+- Asignacion de contadores. ( done )
+
+- Asignación de numeros de series en las lineas. ( done)
+
+- Eliminación en cascada (done)
+
+- Creacion de nuevas estructuras (done)
+
+- Seeders (done)
+
+- No desaparece el browse de las propiedades.(done)
+
+- Criterio de exportación de articulos a la pda.(done)
+
+- Marca para etiqueta en articulo desde el exterior
+
+- Impresion de etiquetas rapidas desde el exterior 
+
+- Mensajes en la conexion del ftp.
+
+- Exportacion automaticas de datos al ftp.
+
+- Stamps en dialogos de seleccion de importacion de almacen
+
+- Error al borrar las lineas de los movimientos de almacen
+
+- No guarda bien la info de empresa (done).
+
+- Filtros
+   * Al quitar el filtro montar la sentencia original (done)
+   * Modificar filtro (done)
+   * Al modificar el filtro, establecer el nuevo y aplicar el cambio
+   * Eliminar filtro
+
+- Rowset debe de ser manejado por el controller, debe desaparecer del modelo. 
+
+- Hacer un controller menos cargado, y una primera capa de herencia, para navegacion (done)
+
+- Para presentacion : 
+ * incluir en harbour scopes para q los metodos no sean estaticos, como en java
+public static String getNombre () { … }
+
+ * metodos overriders de definicion obligatoria en la herencia
+
+- Ordenacion de las columnas en las lineas de movimientos de almcenes
+
+- Guardar la configuracion de columnas en las lineas de movimientos de almcenes
+
+- Busquedas en las lineas
+
+- Dialogo sin rejilla de datos (done)
+
+- Copias de seguridad SQL
+
+- Ver los datos q tenemos q pasar en movimientos de almacen de la divisa monetaria.
+
+- Problemas al existir varias claves duplucadas en la tabla de divisas el modelo debria de corregir esto.
+
+- Crear el browse para lineas de movimientos de almacen. (done)
+
+- No refresca al añadir un nuevo registro en navigator. (done)
+
+- Al borrar un registro no se posiciona bien, y browse no toma el foco. (done)
+
+- Valor automatico para el campo empresa al agregar.(done)
+
+- Valores automaticos para DELETED. (deprecated)
+
+- Sitauciones en los pedidos (done).
+
+- Probar la impresion con las bases de datos de mysql. (done)
+
+- No sale del MDI con ESC (done)
+
+- Al añadir refresco feo del browse
+
+- No refresca bien tras añadir (donde)
+
+- Boton suprimir no funcina en navigator tampoco en selector (done)
+
+- Dobrle click en selector peta
+
+- Ordenes iniciales en Selector (done)
+
+- Buscar en Selector ( done)
+
+- Boton seleccionar en Selector, falta devolver el registro (done).
+
+- Icono de zoom no es transparente (done)
+
+- Meter botones de refresco (done)
+
+- Error SetRowSetRecno (done)
+
+*******************************************************************************
+Hablar con Manu
+*******************************************************************************
+
+- El sistema de montar los recorset de las lineas no me gusta con 
+
+   METHOD initAppendMode()    INLINE ( ::setGeneralSelectToMovimientosAlmacenLineasModel() )     
+   METHOD initDuplicateMode() INLINE ( ::setGeneralSelectToMovimientosAlmacenLineasModel() )     
+   METHOD initEditMode()      INLINE ( ::setGeneralSelectToMovimientosAlmacenLineasModel() )     
+   METHOD initZoomMode()      INLINE ( ::setGeneralSelectToMovimientosAlmacenLineasModel() )     
+
+   METHOD setGeneralSelectToMovimientosAlmacenLineasModel()
+
+- Modo duplicate se complica un poco
+
+
+
+
+
